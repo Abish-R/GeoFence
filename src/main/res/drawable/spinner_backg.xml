@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item><shape>
+            <solid android:color="@color/voilet_light" />
+            <stroke
+                android:width="1dp"
+                android:color="#6f94c7" />
+            <padding
+                android:bottom="10dp"
+                android:left="2dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <corners android:radius="2dp" />
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+        </shape></item>
+        <item ><bitmap android:gravity="right" android:src="@drawable/spnr_drp_dwn_blck_30" />
+        </item>
+    </layer-list></item>
+</selector>
